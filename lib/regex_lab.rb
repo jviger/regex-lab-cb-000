@@ -6,7 +6,7 @@ end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  if word.match(/\b[ing]/)
+  if word.match(/\b(un)/)
   return TRUE
 else return FALSE
 end
