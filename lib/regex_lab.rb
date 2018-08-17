@@ -14,7 +14,7 @@ end
 end
 
 def words_five_letters_long(text)
-text.scan(/[A-Za-z0_9_]{5,}/)
+text.scan(/[A-Za-z0_9_]{5,5}/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
